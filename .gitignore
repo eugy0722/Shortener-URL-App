@@ -49,3 +49,5 @@ Thumbs.db     # Windows
 temp/
 
 /src/generated/prisma
+
+/prisma/generated/prisma
