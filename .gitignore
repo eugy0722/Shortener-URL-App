@@ -1,0 +1,51 @@
+# Dependencies
+node_modules
+npm-cache
+
+# Build artifacts (replace /build with your actual output directory from tsconfig.json)
+/build
+/dist
+*.js.map
+*.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Allow an example environment file to be committed to serve as a template
+!.env.example
+
+# Logs and debug files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage
+coverage
+
+# Editor/IDE-specific files
+.idea         # JetBrains IDEs (IntelliJ, WebStorm, etc)
+.vscode       # VS Code configuration files
+.vs           # Visual Studio
+*.suo
+*.user
+*.cas
+*.sap
+
+# OS-specific files
+.DS_Store     # macOS
+Thumbs.db     # Windows
+
+# Misc
+*.pem         # Ignore key files
+temp/
+
+/src/generated/prisma
