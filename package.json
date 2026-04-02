@@ -1,0 +1,31 @@
+{
+  "name": "shortener-url-app",
+  "version": "1.0.0",
+  "description": "A shortener url web application generate a short url for more readability and improve user experience ",
+  "keywords": [
+    "TypeScript",
+    "Prisma",
+    "PostGreSQL",
+    "Zod",
+    "Sanitizer",
+    "Security",
+    "Scalability",
+    "High-Availability",
+    "Low-Latency"
+  ],
+  "homepage": "https://github.com/eugy0722/Shortener-URL-App#readme",
+  "bugs": {
+    "url": "https://github.com/eugy0722/Shortener-URL-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugy0722/Shortener-URL-App.git"
+  },
+  "license": "MIT",
+  "author": "yujjin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
